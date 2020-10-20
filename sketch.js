@@ -3,17 +3,18 @@ function setup() {
 }
 
 boardWidth = 9
-boardHeight = 8
+boardHeight = 9
 squareWidth = 80
 anyBoxChecked = new Array(boardWidth*boardHeight).fill(false);
-letters = "QWANDSODO" +
-          "TUNNOGAOE" +
-          "PUIOWLSML" +
-          "ARIBISDEG" +
-          "TELWBTAYG" +
-          "ANMOLLOSU" +
-          "CHARMSEIM" +
-          "YMEHCLAR-" 
+letters = "IDCSOQLYP" +
+          "YENAMUOGR" +
+          "MNMATIWOO" +
+          "ELUYWBLLP" +
+          "HSGWEBAOH" +
+          "CRGIALMBE" +
+          "LULPTEORT" +
+          "ANEOGROEO" +
+          "SNOITOPHD"
   
 
 function draw() {
