@@ -24,13 +24,20 @@ function draw() {
     for(i = 0; i < boardWidth * squareWidth; i += squareWidth) {
       if(anyBoxChecked[i + j * boardWidth]) {
         fill(color('black')) 
+        square(i, j, squareWidth)
+        fill(color('white')) 
+        textSize(30)
+        text(letters[i/squareWidth + j/squareWidth * boardWidth], i + squareWidth/3.2, j + squareWidth/1.5)
       } else {
         fill(color('white'))
+        square(i, j, squareWidth)
+        fill(color('black')) 
+        textSize(30)
+        text(letters[i/squareWidth + j/squareWidth * boardWidth], i + squareWidth/3.2, j + squareWidth/1.5)
       }
-      square(i, j, squareWidth)
+      
       fill(color('black'))
-      textSize(30)
-      text(letters[i/squareWidth + j/squareWidth * boardWidth], i + squareWidth/3.2, j + squareWidth/1.5)
+      
       
     }
   }
