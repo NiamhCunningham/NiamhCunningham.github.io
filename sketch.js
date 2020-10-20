@@ -1,10 +1,10 @@
 function setup() {
-  createCanvas(450, 400);
+  createCanvas(720, 640);
 }
 
 boardWidth = 9
 boardHeight = 8
-squareWidth = 50
+squareWidth = 80
 anyBoxChecked = new Array(boardWidth*boardHeight).fill(false);
 letters = "QWANDSODO" +
           "TUNNOGAOE" +
