@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(720, 640);
+  createCanvas(720, 720);
 }
 
 boardWidth = 9
